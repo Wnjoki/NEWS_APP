@@ -16,25 +16,30 @@ Before you start, make sure you have the following installed:
 
 1. Clone this repository to your local machine:
 
-    ```git clone https://github.com/Wnjoki/NEWS_APP.git
-    cd your-flask-app```
-2. Create and activate a virtual environment:
+    ```
+    git clone https://github.com/Wnjoki/NEWS_APP.git
+2. Navigate to the project directory
+   
+    ```
+    cd your-flask-app dir
+    
+3. Create and activate a virtual environment:
   
    python -m venv venv
     `source venv/bin/activate`     
-     # On Windows, use `venv\Scripts\activate`
+     # On Windows, use
+    `venv\Scripts\activate`
 
-3. Install the required dependencies:
+4. Install the required dependencies:
 
     ```pip install -r requirements.txt```
 
-4. Obtain a News API Key
+5. Obtain a News API Key
     To fetch news data, you'll need to obtain a News API key. Follow these steps:
-
     - Visit [News API](https://newsapi.org/) and sign up for an account.
-    - Once registered, obtain your API key from the dashboard and paste it in the appropriate configuration file or environment variable.
+    - Once registered, obtain your API key from the dashboard. 
 
-5. Configure your API key
+6. Configure your API key
 
     - Open the `app.py` file.
     - Replace `NEWS_API_KEY` with the API key you obtained.
