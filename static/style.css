@@ -1,0 +1,60 @@
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #d7d8ce;
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    /* Text color for readability */
+  }
+
+  .header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 75%;
+  }
+
+  .search-button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .search-button:hover {
+    background-color: #003f80;
+  }
+
+  .article-title {
+    font-size: 1.00rem;
+    font-weight: bold;
+    color: #333;
+  }
+
