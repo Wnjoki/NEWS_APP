@@ -29,21 +29,23 @@ Before you start, make sure you have the following installed:
       python -m venv venv
 
 5. Activate the virtual environment:
+   
      On Linux, use
     `source venv/bin/activate`     
       On Windows, use
     `venv\Scripts\activate`
 
-6. Install the required dependencies:
+7. Install the required dependencies:
 
-    ```pip install -r requirements.txt```
+    ```
+   pip install -r requirements.txt```
 
-7. Obtain a News API Key
+9. Obtain a News API Key
     To fetch news data, you'll need to obtain a News API key. Follow these steps:
     - Visit [News API](https://newsapi.org/) and sign up for an account.
     - Once registered, obtain your API key from the dashboard. 
 
-8. Configure your API key
+10. Configure your API key
 
     - Open the `app.py` file.
     - Replace `NEWS_API_KEY` with the API key you obtained.
