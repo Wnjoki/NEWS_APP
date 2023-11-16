@@ -16,7 +16,7 @@ Before you start, make sure you have the following installed:
 
 1. Clone this repository to your local machine:
 
-    ```git clone https://github.com/your-username/your-flask-app.git
+    ```git clone https://github.com/Wnjoki/NEWS_APP.git
     cd your-flask-app```
 2. Create and activate a virtual environment:
   
