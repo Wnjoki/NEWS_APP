@@ -51,7 +51,7 @@ Before you start, make sure you have the following installed:
 ## Running the App
 
 To start the Flask app, run the following commands:
-  ```python app.py ```
-
-   
+  ```
+   python app.py 
+  ```
 Visit http://localhost:5000 in your web browser to see your app in action.
