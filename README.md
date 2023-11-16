@@ -24,22 +24,23 @@ Before you start, make sure you have the following installed:
     cd your-flask-app dir
     
 3. Create and activate a virtual environment:
-  
-   python -m venv venv
+   
+   `python -m venv venv`
+     On Linux, use
     `source venv/bin/activate`     
-     # On Windows, use
+      On Windows, use
     `venv\Scripts\activate`
 
-4. Install the required dependencies:
+5. Install the required dependencies:
 
     ```pip install -r requirements.txt```
 
-5. Obtain a News API Key
+6. Obtain a News API Key
     To fetch news data, you'll need to obtain a News API key. Follow these steps:
     - Visit [News API](https://newsapi.org/) and sign up for an account.
     - Once registered, obtain your API key from the dashboard. 
 
-6. Configure your API key
+7. Configure your API key
 
     - Open the `app.py` file.
     - Replace `NEWS_API_KEY` with the API key you obtained.
